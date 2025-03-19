@@ -1,0 +1,44 @@
+project_3_llm/__pycache__/
+project_3_llm/.ipynb_checkpoints/
+project_3_llm/data/
+project_3_llm/demo.ipynb
+csc306.venv/
+.DS_Store
+.env
+*.zip
+LateX Files/
+
+# Additional exclusions for large files
+*.h5
+*.pkl
+*.model
+*.bin
+*.csv
+*.data
+*.tar
+*.tar.gz
+*.gif
+*.mp4
+*.mov
+*.avi
+*.weights
+node_modules/
+.ipynb_checkpoints/
+__pycache__/
+**/logs/
+**/checkpoints/
+
+# Add these for Jupyter and potential ML data
+**/.vector_cache/
+**/datasets/
+**/*.ipynb
+**/*.pt
+**/*.pth
+**/*.onnx
+**/*.joblib
+**/*-ubyte
+**/*.parquet
+**/*.hdf5
+**/*.npz
+**/*.npy
+
